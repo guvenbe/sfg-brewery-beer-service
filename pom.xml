@@ -56,12 +56,14 @@
 
     <repositories>
         <repository>
-            <id>packagecloud.release</id>
-            <url>packagecloud+https://packagecloud.io/guvenbe/release</url>
-        </repository>
-        <repository>
-            <id>packagecloud.snapshot</id>
-            <url>packagecloud+https://packagecloud.io/guvenbe/snapshot</url>
+            <id>guvenbe-release</id>
+            <url>https://packagecloud.io/guvenbe/release/maven2</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
 
