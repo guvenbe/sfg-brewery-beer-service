@@ -23,7 +23,6 @@
         <artifactId>sfg-brewery-bom</artifactId>
         <version>1.0.53</version>
     </parent>
-
     <artifactId>sfg-brewery-beer-service</artifactId>
     <version>1.0.50-SNAPSHOT</version>
 
