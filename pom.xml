@@ -53,16 +53,18 @@
             <artifactId>httpasyncclient</artifactId>
         </dependency>
     </dependencies>
-    <distributionManagement>
+
+    <repositories>
         <repository>
             <id>packagecloud.release</id>
             <url>packagecloud+https://packagecloud.io/guvenbe/release</url>
         </repository>
-        <snapshotRepository>
+        <repository>
             <id>packagecloud.snapshot</id>
             <url>packagecloud+https://packagecloud.io/guvenbe/snapshot</url>
-        </snapshotRepository>
-    </distributionManagement>
+        </repository>
+    </repositories>
+
     <scm>
         <connection>scm:git:git@github.com:guvenbe/sfg-brewery-beer-service.git</connection>
         <developerConnection>scm:git:git@github.com:guvenbe/sfg-brewery-beer-service.git</developerConnection>
