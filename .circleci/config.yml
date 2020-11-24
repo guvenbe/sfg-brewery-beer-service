@@ -8,9 +8,12 @@ orbs:
     maven: circleci/maven@0.0.12
 
 workflows:
-    maven_test:
-      jobs:
-        - maven/test # checkout, build, test, and upload test results
+  maven_test:
+    jobs:
+      - maven/test # checkout, build, test, and upload test results
+        requires:
+          - build
+
 
 jobs:
     build:
