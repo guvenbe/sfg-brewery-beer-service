@@ -1,5 +1,6 @@
 [![CircleCI](https://circleci.com/gh/guvenbe/sfg-brewery-beer-service.svg?style=svg)](https://circleci.com/gh/guvenbe/sfg-brewery-beer-service)
 [![codecov](https://codecov.io/gh/guvenbe/sfg-brewery-beer-service.svg/branch/master/graph/badge.svg)](https://codecov.io/gh/guvenbe/sfg-brewery-beer-service.svg)
+[![codecov](https://codecov.io/gh/guvenbe/sfg-brewery-beer-service/branch/bg-init/graph/badge.svg?token=50MKNGAC6A)](https://codecov.io/gh/guvenbe/sfg-brewery-beer-service)
 # SFG Brewery Beer Service
 
 Source code in this repository is to support my online courses.
